@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+	  <link href="css/ingenious.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+
+    <title>inGenius | #GetSetHack</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class = 'd-none' id="root"></div>
+   
+    <div>
+    <div class="container sticky-top navbar-conatiner">
+      <div class="card bg-dark rounded">
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+          <div class="container" style="bg:#e6d2e7">
+            <a class="brand-title js-scrool-trigger" href="#">
+              <img src="img/navbar_logo.png" alt="inGenius logo">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
+            data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expand="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#sponsors">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#about">Team/Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#faq">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger text-white" href="#about">Contact US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </nav>
+      </div>
+  
+      <div id = "about"></div>
+      <div id="events"></div>
+      
+      <section id="sponsors">
+        <div class="container">
+          <h3 class="text-white"> Our Proud Sponsors</h3>
+          <br></br>
+          <div class="row">
+            <div class="offset-sm-1 col-sm-3 col-12 sponsors-frame">
+              <img class="rounded" src="img/mslogo.png" alt="Microsoft Logo">
+            </div>
+            <div class=" col-sm-3 col-12 sponsors-frame">
+              <img class="rounded" src="img/skillenza.png" alt="Skillenza Logo">
+            </div>
+            <div class=" col-sm-3 col-12 sponsors-frame">
+              <img class="rounded" src="img/sahaj.png" alt="Sahaj Logo">
+            </div> 
+          </div>		
+        </div>
+      </section>
+      
+      <section id="Organizers">
+        <div class="container card ">
+        <h3>Organizers</h3>
+        <br></br>
+          <div class="row">
+            <div class="offset-sm-1 col-sm-4 col-12 organizers-frame">
+              <img class="rounded" src="img/ieee.png" alt="IEEE PESIT">
+            </div>
+            <div class=" col-sm-4 col-12 organizers-frame">
+              <img class="rounded" src="img/acm.png" alt="ACM PESU">
+            </div>
+          </div>		
+        </div>
+      </section>
+      
+      <div id="faq"></div>
+      
+      <!-- jQuery first, then Tether, then Bootstrap JS. -->
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/tether/dist/js/tether.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </div>
+  </body>
+</html>
